@@ -130,7 +130,7 @@ public class Register extends javax.swing.JFrame {
         FirstName.setText("First Name");
 
         FirstNameTxt.setBackground(new java.awt.Color(255, 255, 255));
-        FirstNameTxt.setFont(new java.awt.Font("PRIMETIME", 0, 12)); // NOI18N
+        FirstNameTxt.setFont(new java.awt.Font("Dutch801 Rm BT", 0, 14)); // NOI18N
         FirstNameTxt.setForeground(new java.awt.Color(0, 0, 0));
         FirstNameTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         FirstNameTxt.addActionListener(new java.awt.event.ActionListener() {
@@ -144,6 +144,7 @@ public class Register extends javax.swing.JFrame {
         LastName.setText("Last Name");
 
         LastNameTxt.setBackground(new java.awt.Color(255, 255, 255));
+        LastNameTxt.setFont(new java.awt.Font("Dutch801 Rm BT", 0, 14)); // NOI18N
         LastNameTxt.setForeground(new java.awt.Color(0, 0, 0));
         LastNameTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
 
@@ -152,6 +153,7 @@ public class Register extends javax.swing.JFrame {
         Email.setText("Email ");
 
         EmailTxt.setBackground(new java.awt.Color(255, 255, 255));
+        EmailTxt.setFont(new java.awt.Font("Dutch801 Rm BT", 0, 14)); // NOI18N
         EmailTxt.setForeground(new java.awt.Color(0, 0, 0));
         EmailTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
 
@@ -160,6 +162,7 @@ public class Register extends javax.swing.JFrame {
         EnterPasword.setText("Enter pASSWORD");
 
         EnterPasswordTxt.setBackground(new java.awt.Color(255, 255, 255));
+        EnterPasswordTxt.setFont(new java.awt.Font("Dutch801 Rm BT", 0, 14)); // NOI18N
         EnterPasswordTxt.setForeground(new java.awt.Color(0, 0, 0));
         EnterPasswordTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         EnterPasswordTxt.addActionListener(new java.awt.event.ActionListener() {
@@ -173,6 +176,7 @@ public class Register extends javax.swing.JFrame {
         ConfirmPassword.setText("Confirm Password");
 
         ConfirmPasswordTxt.setBackground(new java.awt.Color(255, 255, 255));
+        ConfirmPasswordTxt.setFont(new java.awt.Font("Dutch801 Rm BT", 0, 14)); // NOI18N
         ConfirmPasswordTxt.setForeground(new java.awt.Color(0, 0, 0));
         ConfirmPasswordTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
 
@@ -182,6 +186,7 @@ public class Register extends javax.swing.JFrame {
         PhoneNum.setPreferredSize(new java.awt.Dimension(47, 17));
 
         PhoneNumtxt.setBackground(new java.awt.Color(255, 255, 255));
+        PhoneNumtxt.setFont(new java.awt.Font("Dutch801 Rm BT", 0, 14)); // NOI18N
         PhoneNumtxt.setForeground(new java.awt.Color(0, 0, 0));
         PhoneNumtxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         PhoneNumtxt.addActionListener(new java.awt.event.ActionListener() {
@@ -195,6 +200,7 @@ public class Register extends javax.swing.JFrame {
         Address.setText("Address");
 
         AddressTxt.setBackground(new java.awt.Color(255, 255, 255));
+        AddressTxt.setFont(new java.awt.Font("Dutch801 Rm BT", 0, 14)); // NOI18N
         AddressTxt.setForeground(new java.awt.Color(0, 0, 0));
         AddressTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         AddressTxt.addActionListener(new java.awt.event.ActionListener() {
@@ -207,7 +213,7 @@ public class Register extends javax.swing.JFrame {
         RegisterButton.setFont(new java.awt.Font("PRIMETIME", 0, 12)); // NOI18N
         RegisterButton.setForeground(new java.awt.Color(88, 44, 77));
         RegisterButton.setText("REGISTER");
-        RegisterButton.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
+        RegisterButton.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         RegisterButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RegisterButtonActionPerformed(evt);
@@ -219,7 +225,7 @@ public class Register extends javax.swing.JFrame {
         LoginButton.setForeground(new java.awt.Color(88, 44, 77));
         LoginButton.setText("Already have an account? login");
         LoginButton.setAlignmentY(0.4F);
-        LoginButton.setBorder(null);
+        LoginButton.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         LoginButton.setIconTextGap(3);
         LoginButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

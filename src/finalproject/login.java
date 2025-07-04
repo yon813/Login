@@ -2,21 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package finalproject;
 
 /**
  *
  * @author Eunice
  */
 public class login extends javax.swing.JFrame {
-    
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(login.class.getName());
-
-    /**
-     * Creates new form login
-     */
-    public login() {
-        initComponents();
+  
     }
 
     /**
@@ -124,8 +116,8 @@ public class login extends javax.swing.JFrame {
         EmailAddTxt.setAlignmentY(4.0F);
 
         EmailAddTextField.setBackground(new java.awt.Color(191, 181, 175));
-        EmailAddTextField.setFont(new java.awt.Font("PRIMETIME", 0, 8)); // NOI18N
-        EmailAddTextField.setForeground(new java.awt.Color(236, 226, 208));
+        EmailAddTextField.setFont(new java.awt.Font("Dutch801 Rm BT", 0, 14)); // NOI18N
+        EmailAddTextField.setForeground(new java.awt.Color(0, 0, 0));
         EmailAddTextField.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         EmailAddTextField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,8 +143,8 @@ public class login extends javax.swing.JFrame {
         PassTxt.setText("Password");
 
         jPasswordField1.setBackground(new java.awt.Color(191, 181, 175));
-        jPasswordField1.setFont(new java.awt.Font("PRIMETIME", 0, 12)); // NOI18N
-        jPasswordField1.setForeground(new java.awt.Color(236, 226, 208));
+        jPasswordField1.setFont(new java.awt.Font("Dutch801 Rm BT", 0, 14)); // NOI18N
+        jPasswordField1.setForeground(new java.awt.Color(0, 0, 0));
         jPasswordField1.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         jPasswordField1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
@@ -165,7 +157,7 @@ public class login extends javax.swing.JFrame {
         jButton1.setFont(new java.awt.Font("PRIMETIME", 0, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("LOGIN");
-        jButton1.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
+        jButton1.setBorder(javax.swing.BorderFactory.createCompoundBorder());
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -176,7 +168,7 @@ public class login extends javax.swing.JFrame {
         RegisterButton.setFont(new java.awt.Font("The Bold Font", 1, 12)); // NOI18N
         RegisterButton.setForeground(new java.awt.Color(255, 255, 255));
         RegisterButton.setText("New here? Create your Printsonalized Account");
-        RegisterButton.setBorder(null);
+        RegisterButton.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         RegisterButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RegisterButtonActionPerformed(evt);
@@ -262,11 +254,13 @@ public class login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        // TODO add your handling code here:                                  
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_jPasswordField1ActionPerformed
 
     private void EmailAddTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EmailAddTextFieldActionPerformed
@@ -297,9 +291,6 @@ public class login extends javax.swing.JFrame {
             logger.log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new login().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
