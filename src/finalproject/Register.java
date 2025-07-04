@@ -105,20 +105,20 @@ public class Register extends javax.swing.JFrame {
         txtPanelLayout.setHorizontalGroup(
             txtPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(txtPanelLayout.createSequentialGroup()
-                .addGap(84, 84, 84)
+                .addGap(85, 85, 85)
                 .addComponent(jLabel2)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, txtPanelLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 403, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 391, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18))
         );
         txtPanelLayout.setVerticalGroup(
             txtPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(txtPanelLayout.createSequentialGroup()
-                .addContainerGap(16, Short.MAX_VALUE)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addContainerGap(10, Short.MAX_VALUE)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
                 .addComponent(jLabel2)
                 .addContainerGap())
         );
@@ -131,8 +131,8 @@ public class Register extends javax.swing.JFrame {
 
         FirstNameTxt.setBackground(new java.awt.Color(255, 255, 255));
         FirstNameTxt.setFont(new java.awt.Font("PRIMETIME", 0, 12)); // NOI18N
-        FirstNameTxt.setForeground(new java.awt.Color(213, 185, 178));
-        FirstNameTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        FirstNameTxt.setForeground(new java.awt.Color(0, 0, 0));
+        FirstNameTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         FirstNameTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 FirstNameTxtActionPerformed(evt);
@@ -144,23 +144,24 @@ public class Register extends javax.swing.JFrame {
         LastName.setText("Last Name");
 
         LastNameTxt.setBackground(new java.awt.Color(255, 255, 255));
-        LastNameTxt.setForeground(new java.awt.Color(213, 185, 178));
-        LastNameTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        LastNameTxt.setForeground(new java.awt.Color(0, 0, 0));
+        LastNameTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
 
         Email.setFont(new java.awt.Font("PRIMETIME", 0, 12)); // NOI18N
         Email.setForeground(new java.awt.Color(88, 44, 77));
         Email.setText("Email ");
 
         EmailTxt.setBackground(new java.awt.Color(255, 255, 255));
-        EmailTxt.setForeground(new java.awt.Color(213, 185, 178));
-        EmailTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        EmailTxt.setForeground(new java.awt.Color(0, 0, 0));
+        EmailTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
 
         EnterPasword.setFont(new java.awt.Font("PRIMETIME", 0, 12)); // NOI18N
         EnterPasword.setForeground(new java.awt.Color(88, 44, 77));
         EnterPasword.setText("Enter pASSWORD");
 
         EnterPasswordTxt.setBackground(new java.awt.Color(255, 255, 255));
-        EnterPasswordTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        EnterPasswordTxt.setForeground(new java.awt.Color(0, 0, 0));
+        EnterPasswordTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         EnterPasswordTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 EnterPasswordTxtActionPerformed(evt);
@@ -172,7 +173,8 @@ public class Register extends javax.swing.JFrame {
         ConfirmPassword.setText("Confirm Password");
 
         ConfirmPasswordTxt.setBackground(new java.awt.Color(255, 255, 255));
-        ConfirmPasswordTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        ConfirmPasswordTxt.setForeground(new java.awt.Color(0, 0, 0));
+        ConfirmPasswordTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
 
         PhoneNum.setFont(new java.awt.Font("PRIMETIME", 0, 12)); // NOI18N
         PhoneNum.setForeground(new java.awt.Color(88, 44, 77));
@@ -180,7 +182,8 @@ public class Register extends javax.swing.JFrame {
         PhoneNum.setPreferredSize(new java.awt.Dimension(47, 17));
 
         PhoneNumtxt.setBackground(new java.awt.Color(255, 255, 255));
-        PhoneNumtxt.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        PhoneNumtxt.setForeground(new java.awt.Color(0, 0, 0));
+        PhoneNumtxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         PhoneNumtxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PhoneNumtxtActionPerformed(evt);
@@ -192,7 +195,8 @@ public class Register extends javax.swing.JFrame {
         Address.setText("Address");
 
         AddressTxt.setBackground(new java.awt.Color(255, 255, 255));
-        AddressTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        AddressTxt.setForeground(new java.awt.Color(0, 0, 0));
+        AddressTxt.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         AddressTxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 AddressTxtActionPerformed(evt);
@@ -203,7 +207,7 @@ public class Register extends javax.swing.JFrame {
         RegisterButton.setFont(new java.awt.Font("PRIMETIME", 0, 12)); // NOI18N
         RegisterButton.setForeground(new java.awt.Color(88, 44, 77));
         RegisterButton.setText("REGISTER");
-        RegisterButton.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        RegisterButton.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         RegisterButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RegisterButtonActionPerformed(evt);
@@ -261,7 +265,7 @@ public class Register extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, RegisterPanelLayout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(LoginButton, javax.swing.GroupLayout.PREFERRED_SIZE, 281, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(73, 73, 73))
+                .addGap(78, 78, 78))
         );
         RegisterPanelLayout.setVerticalGroup(
             RegisterPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -297,8 +301,8 @@ public class Register extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(RegisterButton, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(LoginButton)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(LoginButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout RegisterLayout = new javax.swing.GroupLayout(Register);
